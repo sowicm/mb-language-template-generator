@@ -1,0 +1,7 @@
+
+project :
+    : build-dir bin
+    : default-build release
+    ;
+exe M&BLanguageTemplateGenerator : main.cpp ;
+install dist : M&BLanguageTemplateGenerator : <location>. ;
